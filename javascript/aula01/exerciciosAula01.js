@@ -1,7 +1,8 @@
 /*
-    1) Criar 2 funções que retornam o resultado das seguintes operações: multiplicar e dividir.
-    2) Armazenar o retorno dessas funções em variáveis.
-    3) Imprimir no terminal a soma dessas variáveis.
+    1) Desenvolva:
+        a) Crie 2 funções que retornem o resultado das seguintes operações: multiplicar e dividir.
+        b) Armazene o retorno dessas funções em variáveis.
+        c) Imprima no terminal a soma dessas variáveis.
 */
 
 function multiplicar(numero1, numero2) {
@@ -18,12 +19,7 @@ const resultadoMultiplicacao = multiplicar(10, 5); // 50
 console.log(resultadoDivisao + resultadoMultiplicacao); // 60
 
 
-/*
-    1) Criar 2 funções que retornam o resultado das seguintes operações: multiplicar e dividir.
-    2) Armazenar o retorno dessas funções em variáveis.
-    3) Imprimir no terminal a soma dessas variáveis.
-*/
-
+// 1) A partir do código abaixo, instancie um objeto do tipo Address informando os seguintes valores: cidade, estado e pais
 
 class Address {
     cidade;
