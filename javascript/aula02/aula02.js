@@ -1,4 +1,4 @@
-// Converter Strings para Number
+// Convertendo Strings para Numbers
 const stringNumber = '10';
 const number = Number(stringNumber)
 console.log(stringNumber); // 10
@@ -8,16 +8,19 @@ console.log(Number('')); // 10
 console.log(Number('Eu vou entrar no mercado de trabalho.')); // NaN = Not a Number
 console.log(Number('100 85')); // NaN = Not a Number
 
-// Converter Numbers para String
+
+// Convertendo Numbers para Strings
 console.log(String(862)); // '862'
 console.log(String(1099.55)); // '1099.55'
 console.log(String(10 * 5)); // '50'
 
-// Converter Booleans para Numbers
+
+// Convertendo Booleans para Numbers
 console.log(Number(true)); // 1
 console.log(Number(false)); // 2
 
-// Converter Booleans para String
+
+// Convertendo Booleans para Strings
 console.log(String(true)); // 'true'
 console.log(String(false)); // 'false'
 
